@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Advanced Search</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<div class="more-options">
+			<a href="index.html">Back to Google Search</a>
+		</div>
+	</head>
+	<body>
+		<img class="caan" id="advanced" src="Caancito.jpg" alt="Caancito">
+		<img class="chess" id="advanced_chess" src="chess.jpeg" alt="chess">
+		<div id="main_advanced">	
+		<div id="fpw">Find pages with...</div>
+			<form action="https://www.google.com/search">
+				<div id="advanced_search">
+					<label class="filter">all these words:</label><input type="text" name="as_q">
+					<br>
+					<label class="filter">this exact word or phrase:</label><input type="text" name="as_epq">
+					<br>
+					<label class="filter">any of these words:</label><input type="text" name="as_oq">
+					<br>	
+					<label class="filter">none of these words:</label><input type="text" name="as_eq">
+					<br>
+				</div>
+				<input id="advanced_submit" type="submit" value="Advanced Search">
+			</form>
+		</div>
+	</body>
+	</html>
+
+<!-- https://www.google.com/search?as_q=iphone+android&as_epq=thisexact+phrase&as_oq=any+ofthiswords&as_eq=cat-->
+<!-- as = advanced search;
+	as_q = advanced search_query
+	as_epq = advanced search_exact_phrase_query
+	as_oq = advanced search_or_query
+	as_eq = advanced search_exclude_query
+
+	By inspection, this is likely what they mean
+-->
+

@@ -1,0 +1,164 @@
+.chess#advanced_chess, .chess, .caan#advanced, .caan {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 100px;
+  top: 100px;
+}
+
+html {
+  background-color: #202124;
+}
+
+.main {
+  position: relative;
+  text-align: center;
+  top: 230px;
+}
+
+.more-options {
+  position: relative;
+  text-align: right;
+  font-family: sans-serif;
+  top: 10px;
+}
+.more-options a {
+  color: white;
+  font-size: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.more-options a:link {
+  text-decoration: none;
+}
+.more-options a:hover {
+  text-decoration: underline;
+}
+
+.submit_bar {
+  background: transparent;
+  color: white;
+  position: relative;
+  border-radius: 24px;
+  border: 1px solid #5f6368;
+  height: 5px;
+  width: 535px;
+  padding: 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.submit_bar:hover {
+  background-color: #303134;
+  border: 1px solid #303134;
+}
+
+.submit_bar:focus {
+  outline: none;
+}
+
+.submit_buttons {
+  padding: 16px;
+  border: 1px;
+  margin: 4px;
+}
+.submit_buttons input {
+  background-color: #303134;
+  border: 1px solid #303134;
+  color: #e8eaed;
+  font-family: sans-serif;
+  font-size: 14px;
+  border-radius: 4px;
+  width: 150px;
+  height: 36px;
+  margin: 6px;
+  cursor: pointer;
+}
+.submit_buttons input:hover {
+  border: 1px solid rgb(118, 118, 118);
+}
+
+#advanced_search input {
+  background-color: transparent;
+  border: 1px solid #5f6368;
+  border-radius: 1px;
+  color: #bdc1c6;
+  margin: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  position: relative;
+  width: 437px;
+}
+#advanced_search input:focus {
+  border: 1px solid #8ab4f8;
+  outline: none;
+}
+
+#advanced_submit {
+  background-color: rgb(90, 162, 209);
+  border-radius: 2px;
+  border: transparent;
+  font-size: 11px;
+  font-weight: bold;
+  color: white; /* As of 2022, the text filed within the button is not white, it's black. But I'll follow the specifications regardless */
+  height: 30px;
+  min-width: 135px;
+  margin: 3px;
+  margin-top: 20px;
+  position: relative;
+  left: 490px;
+  cursor: pointer;
+}
+
+#advanced_submit:hover {
+  border: 1px solid #3079ed;
+  background-color: #8ab4f8;
+}
+
+#fpw {
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.filter {
+  color: #bdc1c6;
+  font-family: sans-serif;
+  font-size: 13px;
+  display: inline-block;
+  width: 167px;
+}
+
+#main_advanced {
+  margin-left: 40px;
+}
+
+#images {
+  color: #4487f6;
+  font-size: 16px;
+  font-family: sans-serif;
+  position: relative;
+  left: 110px;
+  bottom: 20px;
+}
+
+.caan {
+  left: 100px;
+}
+
+.caan#advanced {
+  left: 1300px;
+}
+
+.chess {
+  left: 1400px;
+  width: 450px;
+}
+
+.chess#advanced_chess {
+  top: 400px;
+  left: 200px;
+}
